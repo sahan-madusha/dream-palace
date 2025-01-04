@@ -1,0 +1,59 @@
+/* Custom Navbar Styling */
+.custom-navbar {
+    background-color: #666fa01f;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #000;
+    letter-spacing: 2px;
+  }
+  
+  .custom-navbar .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #0000;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-navbar .navbar-nav .nav-link:hover {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .custom-navbar .navbar-nav .nav-item.active .nav-link {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .custom-navbar .navbar-toggler-icon {
+    background-color: #000;
+  }
+  
+  @media (max-width: 991px) {
+    .custom-navbar {
+      background-color: #666fa01f;
+    }
+    .custom-navbar .navbar-nav {
+      text-align: center;
+    }
+    .custom-navbar .navbar-nav .nav-link {
+      font-size: 1.3rem;
+      padding: 15px 0;
+    }
+  }
+  
+  /* Mobile Navbar Styling */
+  @media (max-width: 576px) {
+    .custom-navbar .navbar-nav .nav-link {
+      font-size: 1.2rem;
+    }
+  
+    .custom-navbar .navbar-brand {
+      font-size: 1.5rem;
+    }
+  }
+  
