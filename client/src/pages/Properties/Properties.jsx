@@ -66,7 +66,6 @@ export const PropertiesPage = () => {
         <div className="col-md-3 mb-4">
           <div className="bg-light shadow rounded p-3 sticky-top">
             <h5 className="fw-bold mb-3">Wishlist</h5>
-            {/* Wishlist Drop Zone */}
             <div
               className="wishlist-drop-zone text-center"
               onDrop={handleDrop}
@@ -78,7 +77,7 @@ export const PropertiesPage = () => {
                 borderRadius: "8px",
               }}
             >
-              Drag items here to add to your wishlist
+              Drag items here to add to your wishlist or outside to remove them
             </div>
             {wishlist?.length > 0 ? (
               <>
@@ -88,6 +87,8 @@ export const PropertiesPage = () => {
                     .map((property) => (
                       <li
                         key={property.id}
+                        draggable="true"
+                        onDragStart={(e) => handleDragStart(e, property.id)}
                         className="list-group-item d-flex justify-content-between align-items-center"
                       >
                         <Link

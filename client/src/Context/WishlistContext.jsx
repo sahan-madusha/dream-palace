@@ -13,7 +13,6 @@ export const WishlistProvider = ({ children }) => {
     localStorage.setItem("wishlist", JSON.stringify(wishlist));
     setWishlistCount(wishlist?.length);
     console.log(wishlist?.length);
-    
   }, [wishlist]);
 
   const addToWishlist = (itemId) => {
@@ -45,7 +44,13 @@ export const WishlistProvider = ({ children }) => {
   const handleDrop = (event) => {
     event.preventDefault();
     const itemId = event.dataTransfer.getData("text/plain");
-    addToWishlist(itemId);
+    const dropZone = document.querySelector(".wishlist-drop-zone");
+
+    if (dropZone && dropZone.contains(event.target)) {
+      addToWishlist(itemId);
+    } else {
+      removeFromWishlist(itemId);
+    }
   };
 
   const handleDragOver = (event) => {
@@ -68,7 +73,7 @@ export const WishlistProvider = ({ children }) => {
         handleDrop,
         handleDragOver,
         wishlistCount,
-        clearWishlist
+        clearWishlist,
       }}
     >
       {children}
