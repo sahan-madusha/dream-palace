@@ -1,3 +1,10 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
 .contact-us-section {
   background-color: #f8f9fa;
   padding: 50px 0;
@@ -71,14 +78,6 @@
   max-height: 80%;
 }
 
-/* Global Styles */
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f7f7f7;
-  margin: 0;
-  padding: 0;
-}
-
 .single-view-page {
   max-width: 1200px;
   margin: 0 auto;
@@ -88,7 +87,6 @@ body {
   border-radius: 8px;
 }
 
-/* Header */
 .property-header {
   display: flex;
   justify-content: space-between;
@@ -108,7 +106,6 @@ body {
   color: #007bff;
 }
 
-/* Property Description */
 .property-description {
   font-size: 1rem;
   line-height: 1.6;
@@ -117,7 +114,6 @@ body {
   padding: 0 10px;
 }
 
-/* Property Meta (Details like bedrooms, added date) */
 .property-details {
   display: flex;
   gap: 40px;
@@ -134,7 +130,6 @@ body {
   margin: 10px 0;
 }
 
-/* Image Gallery */
 .image-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -155,7 +150,6 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Image Modal */
 .image-modal {
   position: fixed;
   top: 0;
@@ -201,4 +195,19 @@ body {
 
 .close-modal:hover {
   background-color: #0056b3;
+}
+
+
+.image-container {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: grab;
+}
+
+.wishlist-drop-zone {
+  transition: background-color 0.3s ease;
+}
+
+.wishlist-drop-zone:hover {
+  background-color: #f0f8ff;
 }

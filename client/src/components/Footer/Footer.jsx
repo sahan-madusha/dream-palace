@@ -6,7 +6,7 @@ export const Footer = () => {
     <footer className="footer bg-dark text-white py-5">
       <div className="container">
         <div className="row">
-          {/* Company Info Section */}
+          {/* Company Section */}
           <div className="col-md-4 mb-4">
             <h5 className="footer-title">Company</h5>
             <ul className="list-unstyled">
@@ -17,7 +17,7 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Info Section */}
+          {/* Contact Section */}
           <div className="col-md-4 mb-4">
             <h5 className="footer-title">Contact Us</h5>
             <p className="footer-contact">

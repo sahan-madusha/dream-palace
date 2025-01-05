@@ -1,4 +1,3 @@
-/* Custom Navbar Styling */
 .custom-navbar {
     background-color: #666fa01f;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -46,7 +45,6 @@
     }
   }
   
-  /* Mobile Navbar Styling */
   @media (max-width: 576px) {
     .custom-navbar .navbar-nav .nav-link {
       font-size: 1.2rem;

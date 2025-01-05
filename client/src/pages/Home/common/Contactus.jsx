@@ -17,7 +17,6 @@ export const ContactUsSection = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic (e.g., sending the data to the server)
     console.log("Form Submitted:", formData);
   };
 

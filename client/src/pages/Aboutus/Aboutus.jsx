@@ -1,5 +1,5 @@
 import React from "react";
-import {WEBNAME} from '../../constant/AppConstant'
+import { WEBNAME } from "../../constant/AppConstant";
 
 export const AboutUsPage = () => {
   return (

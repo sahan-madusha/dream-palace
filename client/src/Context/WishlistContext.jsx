@@ -34,9 +34,32 @@ export const WishlistProvider = ({ children }) => {
     });
   };
 
+  const handleDragStart = (event, itemId) => {
+    event.dataTransfer.setData("text/plain", itemId);
+  };
+
+  const handleDrop = (event) => {
+    event.preventDefault();
+    const itemId = event.dataTransfer.getData("text/plain");
+    addToWishlist(itemId);
+  };
+
+  const handleDragOver = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <WishlistContext.Provider
-      value={{ wishlist, addToWishlist, removeFromWishlist, isInWishlist , toggleWishlist }}
+      value={{
+        wishlist,
+        addToWishlist,
+        removeFromWishlist,
+        isInWishlist,
+        toggleWishlist,
+        handleDragStart,
+        handleDrop,
+        handleDragOver,
+      }}
     >
       {children}
     </WishlistContext.Provider>

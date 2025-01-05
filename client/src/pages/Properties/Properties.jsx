@@ -15,7 +15,13 @@ export const PropertiesPage = () => {
     maxPrice: "",
   });
 
-  const { wishlist, toggleWishlist, addToWishlist } = useWishlist();
+  const {
+    wishlist,
+    toggleWishlist,
+    handleDragStart,
+    handleDrop,
+    handleDragOver,
+  } = useWishlist();
 
   useEffect(() => {
     if (propertiesData?.properties) {
@@ -24,7 +30,6 @@ export const PropertiesPage = () => {
     }
   }, []);
 
-  // Handle search and filter
   const handleSearch = () => {
     const { name, type, minPrice, maxPrice } = searchFilters;
 
@@ -53,20 +58,6 @@ export const PropertiesPage = () => {
     setSearchFilters({ ...searchFilters, [name]: value });
   };
 
-  const handleDragStart = (event, itemId) => {
-    event.dataTransfer.setData("text/plain", itemId);
-  };
-
-  const handleDrop = (event) => {
-    event.preventDefault();
-    const itemId = event.dataTransfer.getData("text/plain");
-    addToWishlist(itemId);
-  };
-
-  const handleDragOver = (event) => {
-    event.preventDefault();
-  };
-
   return (
     <div className="container py-4">
       <div className="row sticky-top bg-light pt-4">
@@ -75,14 +66,13 @@ export const PropertiesPage = () => {
             <h5 className="fw-bold mb-3">Wishlist</h5>
             {/* Wishlist Drop Zone */}
             <div
-              className="wishlist-drop-zone"
-              onDrop={handleDrop} // Handle drop event
-              onDragOver={handleDragOver} // Allow dropping
+              className="wishlist-drop-zone text-center"
+              onDrop={handleDrop}
+              onDragOver={handleDragOver}
               style={{
                 marginTop: "20px",
                 padding: "20px",
                 border: "2px dashed #ccc",
-                textAlign: "center",
                 borderRadius: "8px",
               }}
             >
