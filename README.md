@@ -1,4 +1,5 @@
 markdown
+
 # React Property Search Application
 
 ## Overview
@@ -22,12 +23,12 @@ The app is built with **React.js**, handles state management for the search and 
 - **Favorites**: Users can add or remove properties to/from their favorites list. The list can be managed via drag-and-drop or a simple "favorite" button.
 - **Responsive Design**: The app adapts to various screen sizes, ensuring a seamless experience on iPads, mobile devices, and desktops.
 - **Local Storage**: Users’ favorite properties are saved in local storage, ensuring they persist across sessions. The favorites list can be easily cleared.
-  
+
 ---
 
-## Setup ⚙
+## Setup
 
-### Prerequisites 🛠
+### Prerequisites
 
 Before running the application, ensure the following are installed:
 
@@ -40,34 +41,42 @@ bash
 node -v
 npm -v
 
-
 If they aren't installed, you can download and install them from the official websites:
+
 - [Download Node.js](https://nodejs.org/)
 - npm is installed automatically with Node.js.
 
 ---
 
-### Installation 🖥
+## Installation
 
-To get the application running locally, follow these steps:
+### Clone the Repository or Use ZIP File
 
-1. **Clone the repository**:
+#### **Option 1: Clone the Repository**
 
-   Clone the project from GitHub:
-
-   bash
+1. Clone the project from GitHub using the following command:
+   ```bash
    git clone https://github.com/sahan-madusha/dream-palace.git
+   ```
+2. Navigate to the project directory:
+   ```bash
    cd dream-palace
    cd client
-   
+   npm i
+   npm start
+   ```
 
-2. **Install dependencies**:
+#### **Option 2: Download ZIP File**
 
-   Inside the `client` folder, run the following command to install all required dependencies:
-
-   bash
-   npm install
-   
+1. Download a ZIP file.
+2. Extract the ZIP file.
+3. Open a terminal and navigate to the extracted folder:
+   ```bash
+   cd dream-palace
+   cd client
+   npm i
+   npm start
+   ```
 
 ---
 
@@ -92,7 +101,6 @@ After installing the dependencies, you can start the development server:
 
 bash
 npm start
-
 
 This will run the application at `http://localhost:3000`. You should now be able to search for properties, view detailed property pages, and manage your favorite properties.
 
