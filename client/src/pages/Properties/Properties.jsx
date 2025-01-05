@@ -22,6 +22,7 @@ export const PropertiesPage = () => {
     handleDragStart,
     handleDrop,
     handleDragOver,
+    clearWishlist,
   } = useWishlist();
 
   useEffect(() => {
@@ -80,29 +81,37 @@ export const PropertiesPage = () => {
               Drag items here to add to your wishlist
             </div>
             {wishlist?.length > 0 ? (
-              <ul className="list-group">
-                {properties
-                  .filter((property) => wishlist?.includes(property.id))
-                  .map((property) => (
-                    <li
-                      key={property.id}
-                      className="list-group-item d-flex justify-content-between align-items-center"
-                    >
-                      <Link
-                        className="nav-link text-dark"
-                        to={`../${SINGLEVIEW}/${property?.id}`}
+              <>
+                <ul className="list-group">
+                  {properties
+                    .filter((property) => wishlist?.includes(property.id))
+                    .map((property) => (
+                      <li
+                        key={property.id}
+                        className="list-group-item d-flex justify-content-between align-items-center"
                       >
-                        <span>{property.type}</span>
-                      </Link>
-                      <button
-                        className="btn btn-sm btn-danger"
-                        onClick={() => toggleWishlist(property.id)}
-                      >
-                        Remove
-                      </button>
-                    </li>
-                  ))}
-              </ul>
+                        <Link
+                          className="nav-link text-dark"
+                          to={`../${SINGLEVIEW}/${property?.id}`}
+                        >
+                          <span>{property.type}</span>
+                        </Link>
+                        <button
+                          className="btn btn-sm btn-danger"
+                          onClick={() => toggleWishlist(property.id)}
+                        >
+                          Remove
+                        </button>
+                      </li>
+                    ))}
+                </ul>
+                <button
+                  onClick={clearWishlist}
+                  className="btn btn-danger mt-3 w-100"
+                >
+                  Clear All Wishlist
+                </button>
+              </>
             ) : (
               <p className="text-muted">No items in wishlist</p>
             )}

@@ -52,6 +52,10 @@ export const WishlistProvider = ({ children }) => {
     event.preventDefault();
   };
 
+  const clearWishlist = () => {
+    setWishlist([]);
+  };
+
   return (
     <WishlistContext.Provider
       value={{
@@ -63,7 +67,8 @@ export const WishlistProvider = ({ children }) => {
         handleDragStart,
         handleDrop,
         handleDragOver,
-        wishlistCount
+        wishlistCount,
+        clearWishlist
       }}
     >
       {children}
