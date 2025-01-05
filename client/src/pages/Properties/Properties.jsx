@@ -3,7 +3,7 @@ import propertiesData from "../../data/properties.json";
 import { PropertyCard } from "../../components";
 import { useWishlist } from "../../Context/WishlistContext.jsx";
 import { Link } from "react-router-dom";
-import {SINGLEVIEW} from '../../constant/AppConstant.js'
+import { SINGLEVIEW } from "../../constant/AppConstant.js";
 
 export const PropertiesPage = () => {
   const [properties, setProperties] = useState([]);
@@ -15,7 +15,7 @@ export const PropertiesPage = () => {
     maxPrice: "",
   });
 
-  const { wishlist, toggleWishlist } = useWishlist();
+  const { wishlist, toggleWishlist, addToWishlist } = useWishlist();
 
   useEffect(() => {
     if (propertiesData?.properties) {
@@ -53,12 +53,41 @@ export const PropertiesPage = () => {
     setSearchFilters({ ...searchFilters, [name]: value });
   };
 
+  const handleDragStart = (event, itemId) => {
+    event.dataTransfer.setData("text/plain", itemId);
+  };
+
+  const handleDrop = (event) => {
+    event.preventDefault();
+    const itemId = event.dataTransfer.getData("text/plain");
+    addToWishlist(itemId);
+  };
+
+  const handleDragOver = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <div className="container py-4">
-      <div className="row">
+      <div className="row sticky-top bg-light pt-4">
         <div className="col-md-3 mb-4">
           <div className="bg-light shadow rounded p-3 sticky-top">
             <h5 className="fw-bold mb-3">Wishlist</h5>
+            {/* Wishlist Drop Zone */}
+            <div
+              className="wishlist-drop-zone"
+              onDrop={handleDrop} // Handle drop event
+              onDragOver={handleDragOver} // Allow dropping
+              style={{
+                marginTop: "20px",
+                padding: "20px",
+                border: "2px dashed #ccc",
+                textAlign: "center",
+                borderRadius: "8px",
+              }}
+            >
+              Drag items here to add to your wishlist
+            </div>
             {wishlist?.length > 0 ? (
               <ul className="list-group">
                 {properties
@@ -68,7 +97,12 @@ export const PropertiesPage = () => {
                       key={property.id}
                       className="list-group-item d-flex justify-content-between align-items-center"
                     >
-                      <Link className="nav-link text-dark" to={`../${SINGLEVIEW}/${property?.id}`}><span>{property.type}</span></Link>
+                      <Link
+                        className="nav-link text-dark"
+                        to={`../${SINGLEVIEW}/${property?.id}`}
+                      >
+                        <span>{property.type}</span>
+                      </Link>
                       <button
                         className="btn btn-sm btn-danger"
                         onClick={() => toggleWishlist(property.id)}
@@ -167,11 +201,12 @@ export const PropertiesPage = () => {
         </div>
       </div>
 
-      {/* Properties Grid */}
       <div className="row">
         {filteredProperties?.map((property) => (
           <div
             key={property.id}
+            draggable="true"
+            onDragStart={(e) => handleDragStart(e, property?.id)}
             className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"
           >
             <PropertyCard
