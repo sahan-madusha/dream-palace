@@ -7,9 +7,13 @@ export const WishlistProvider = ({ children }) => {
     const storedWishlist = localStorage.getItem("wishlist");
     return storedWishlist ? JSON.parse(storedWishlist) : [];
   });
+  const [wishlistCount, setWishlistCount] = useState(0);
 
   useEffect(() => {
     localStorage.setItem("wishlist", JSON.stringify(wishlist));
+    setWishlistCount(wishlist?.length);
+    console.log(wishlist?.length);
+    
   }, [wishlist]);
 
   const addToWishlist = (itemId) => {
@@ -59,6 +63,7 @@ export const WishlistProvider = ({ children }) => {
         handleDragStart,
         handleDrop,
         handleDragOver,
+        wishlistCount
       }}
     >
       {children}

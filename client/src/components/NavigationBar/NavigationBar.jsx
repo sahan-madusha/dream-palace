@@ -7,11 +7,15 @@ import {
   ABOUTUS,
   PROPERTIES,
 } from "../../constant/AppConstant";
+import { useWishlist } from "../../Context/WishlistContext";
 
 export const NavigationBar = () => {
+
+  const { wishlistCount } = useWishlist();
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark custom-navbar">
-      <div className="container">
+    <nav className="navbar navbar-expand-lg navbar-dark custom-navbar pt-3">
+      <div className="container flex align-items-center">
         <h2 className="text-dark">{WEBNAME}</h2>
         <button
           className="navbar-toggler"
@@ -35,7 +39,7 @@ export const NavigationBar = () => {
           </ul>
         </div>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto ">
+          <ul className="navbar-nav mx-auto flex align-items-center ">
             <li className="nav-item">
               <Link className="nav-link text-dark" to={`../${HOMEPAGEURL}`}>
                 Home
@@ -54,6 +58,16 @@ export const NavigationBar = () => {
             <li className="nav-item">
               <Link className="nav-link text-dark" to={`../${CONTACTUS}`}>
                 Contact
+              </Link>
+            </li>
+            <li className="nav-item mx-1">
+              <Link to={`../${PROPERTIES}`} className="nav-link position-relative">
+                <i className="bi-heart-fill text-danger fs-4"></i>
+                {wishlistCount >= 0 && (
+                  <span className="badge position-absolute top-0 start-100 translate-middle bg-danger text-white rounded-circle">
+                    {wishlistCount}
+                  </span>
+                )}
               </Link>
             </li>
           </ul>
