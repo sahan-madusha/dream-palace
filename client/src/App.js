@@ -10,6 +10,7 @@ import {
 } from "./constant/AppConstant.js";
 import { NavigationBar, Footer } from "./components";
 import { HomePage, AboutUsPage, ContactUsPage, PropertiesPage ,SingleViewPage } from "./pages";
+import "react-widgets/styles.css";
 
 function App() {
 

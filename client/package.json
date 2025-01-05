@@ -5,9 +5,13 @@
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
+    "react-datepicker": "^7.5.0",
     "react-dom": "^19.0.0",
+    "react-input-mask": "^2.0.4",
     "react-router-dom": "^7.1.1",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "react-select": "^5.9.0",
+    "react-widgets": "^5.8.6"
   },
   "scripts": {
     "start": "react-scripts start",

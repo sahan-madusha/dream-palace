@@ -4,6 +4,7 @@ import { PropertyCard } from "../../components";
 import { useWishlist } from "../../Context/WishlistContext.jsx";
 import { Link } from "react-router-dom";
 import { SINGLEVIEW } from "../../constant/AppConstant.js";
+import { DropdownList } from "react-widgets";
 
 export const PropertiesPage = () => {
   const [properties, setProperties] = useState([]);
@@ -136,18 +137,16 @@ export const PropertiesPage = () => {
                   <label htmlFor="type" className="form-label">
                     Property Type
                   </label>
-                  <select
+                  <DropdownList
                     id="type"
                     name="type"
-                    className="form-select"
+                    data={["House", "Apartment", "Villa"]}
                     value={searchFilters.type}
-                    onChange={handleInputChange}
-                  >
-                    <option value="">All Types</option>
-                    <option value="House">House</option>
-                    <option value="Apartment">Apartment</option>
-                    <option value="Villa">Villa</option>
-                  </select>
+                    onChange={(value) =>
+                      setSearchFilters((prev) => ({ ...prev, type: value }))
+                    }
+                    className="form-control"
+                  />
                 </div>
 
                 <div className="col-md-2">

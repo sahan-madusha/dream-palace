@@ -9,6 +9,7 @@
       "shortdescription": "Three-bedroom semi-detached house close to transport links.",
       "description": "This three-bedroom semi-detached house is located on Petts Wood Road, Orpington. It offers spacious living areas and is close to all major transport links. Ideal for families looking for a quiet yet connected neighborhood. The house features modern fixtures and fittings, a large garden, and off-street parking. The house has been well-maintained, and it is perfect for those looking to move into a ready-to-live-in property. Petts Wood offers great schools, parks, and is only a short commute to central London.",
       "location": "Petts Wood Road, Orpington BR5",
+      "floorplane":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sample_Floorplan.jpg/640px-Sample_Floorplan.jpg",
       "picture": [
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
@@ -19,7 +20,7 @@
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
       ],
-      "url": "properties/prop1.html",
+      "url": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d31659.2973448237!2d80.58245832331959!3d7.307506250230612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3ae369dd1df56dab%3A0xdda18c3258034310!2sAladeniya!3m2!1d7.330692999999999!2d80.5688428!4m5!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!3m2!1d7.2905714999999995!2d80.6337262!5e0!3m2!1sen!2slk!4v1736081859738!5m2!1sen!2slk",
       "added": { "month": "October", "day": 12, "year": 2022 }
     },
     {
