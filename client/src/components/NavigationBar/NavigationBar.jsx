@@ -38,6 +38,7 @@ export const NavigationBar = () => {
             </li>
           </ul>
         </div>
+        {/* Navigation links */}
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto flex align-items-center ">
             <li className="nav-item">

@@ -1,8 +1,10 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 
+// Context for wish list item handle
 const WishlistContext = createContext();
 
 export const WishlistProvider = ({ children }) => {
+
   const [wishlist, setWishlist] = useState(() => {
     const storedWishlist = localStorage.getItem("wishlist");
     return storedWishlist ? JSON.parse(storedWishlist) : [];
@@ -12,21 +14,22 @@ export const WishlistProvider = ({ children }) => {
   useEffect(() => {
     localStorage.setItem("wishlist", JSON.stringify(wishlist));
     setWishlistCount(wishlist?.length);
-    console.log(wishlist?.length);
   }, [wishlist]);
 
+  // Add items
   const addToWishlist = (itemId) => {
     if (!wishlist.includes(itemId)) {
       setWishlist((prevWishlist) => [...prevWishlist, itemId]);
     }
   };
-
+// Remove item
   const removeFromWishlist = (itemId) => {
     setWishlist((prevWishlist) => prevWishlist.filter((id) => id !== itemId));
   };
 
   const isInWishlist = (itemId) => wishlist.includes(itemId);
 
+  // card button action
   const toggleWishlist = (itemId) => {
     setWishlist((prevWishlist) => {
       if (prevWishlist.includes(itemId)) {
@@ -37,6 +40,8 @@ export const WishlistProvider = ({ children }) => {
     });
   };
 
+
+  // Wish list item Drag and drop functinalities handle
   const handleDragStart = (event, itemId) => {
     event.dataTransfer.setData("text/plain", itemId);
   };
@@ -57,6 +62,7 @@ export const WishlistProvider = ({ children }) => {
     event.preventDefault();
   };
 
+  // clear wish list
   const clearWishlist = () => {
     setWishlist([]);
   };
