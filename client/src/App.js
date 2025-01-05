@@ -6,9 +6,10 @@ import {
   ABOUTUS,
   CONTACTUS,
   PROPERTIES,
+  SINGLEVIEW,
 } from "./constant/AppConstant.js";
 import { NavigationBar, Footer } from "./components";
-import { HomePage, AboutUsPage, ContactUsPage, PropertiesPage } from "./pages";
+import { HomePage, AboutUsPage, ContactUsPage, PropertiesPage ,SingleViewPage } from "./pages";
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
                   <Route path={ABOUTUS} element={<AboutUsPage />} />
                   <Route path={CONTACTUS} element={<ContactUsPage />} />
                   <Route path={PROPERTIES} element={<PropertiesPage />} />
+                  <Route path={`${SINGLEVIEW}/:id`} element={<SingleViewPage />} />
                 </Routes>
                 <Footer />
               </>

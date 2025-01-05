@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { SINGLEVIEW } from "../../constant/AppConstant.js";
 import { useWishlist } from "../../Context/WishlistContext.jsx";
 
 export const PropertyCard = ({ property }) => {
@@ -16,30 +18,28 @@ export const PropertyCard = ({ property }) => {
     <div className="container py-5">
       <div className="property-card position-relative bg-light rounded overflow-hidden shadow">
         <img
-          src={property.picture}
-          alt={property.shortdescription}
+          src={property?.picture?.length > 0 ? property?.picture[0] : ""}
+          alt={property?.shortdescription}
           className="img-fluid w-100 h-100 object-fit-cover"
           style={{ height: "300px", objectFit: "cover" }}
         />
         <div className="p-4">
-          <h5 className="fw-bold">{property.type}</h5>
-          <p className="text-muted">{property.location}</p>
+          <h5 className="fw-bold">{property?.type}</h5>
+          <p className="text-muted">{property?.location}</p>
           <p className="text-primary h6">
-            ${property.price.toLocaleString()} - {property.bedrooms} Bedrooms
+            ${property?.price?.toLocaleString()} - {property?.bedrooms} Bedrooms
           </p>
-          <p className="small text-muted mb-2">{property.shortdescription}</p>
+          <p className="small text-muted mb-2">{property?.shortdescription}</p>
           <div className="d-flex justify-content-between align-items-center">
-            <a
-              href={property.url}
+            <Link
+              to={`../${SINGLEVIEW}/${property?.id}`}
               className="btn btn-outline-primary btn-sm"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               View Details
-            </a>
+            </Link>
             <button
               className={`btn btn-sm wishlist-btn rounded-circle py-1 px-2 ${
-                isInWishlist(property.id)
+                isInWishlist(property?.id)
                   ? "border border-success bg-success text-white"
                   : "border border-danger bg-danger text-white"
               }`}
@@ -47,7 +47,7 @@ export const PropertyCard = ({ property }) => {
             >
               <i
                 className={`bi ${
-                  isInWishlist(property.id) ? "bi-heart-fill" : "bi-heart"
+                  isInWishlist(property?.id) ? "bi-heart-fill" : "bi-heart"
                 }`}
               ></i>
             </button>

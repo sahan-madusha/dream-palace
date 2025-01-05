@@ -14,6 +14,7 @@ const config = {
   aboutus: "aboutus",
   contactus: "contactus",
   Properties: "Properties",
+  singleview:"singleview"
 };
 
 export default config;

@@ -37,22 +37,22 @@ export const NavigationBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto ">
             <li className="nav-item">
-              <Link className="nav-link text-dark" to={HOMEPAGEURL}>
+              <Link className="nav-link text-dark" to={`../${HOMEPAGEURL}`}>
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-dark" to={PROPERTIES}>
+              <Link className="nav-link text-dark" to={`../${PROPERTIES}`}>
                 Properties
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-dark" to={ABOUTUS}>
+              <Link className="nav-link text-dark" to={`../${ABOUTUS}`}>
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-dark" to={CONTACTUS}>
+              <Link className="nav-link text-dark" to={`../${CONTACTUS}`}>
                 Contact
               </Link>
             </li>

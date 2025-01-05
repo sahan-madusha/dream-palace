@@ -1,9 +1,9 @@
-// pages/PropertiesPage.js
-
-import React, { useEffect, useState, useContext } from "react";
+import React, { useEffect, useState } from "react";
 import propertiesData from "../../data/properties.json";
 import { PropertyCard } from "../../components";
 import { useWishlist } from "../../Context/WishlistContext.jsx";
+import { Link } from "react-router-dom";
+import {SINGLEVIEW} from '../../constant/AppConstant.js'
 
 export const PropertiesPage = () => {
   const [properties, setProperties] = useState([]);
@@ -18,9 +18,9 @@ export const PropertiesPage = () => {
   const { wishlist, toggleWishlist } = useWishlist();
 
   useEffect(() => {
-    if (propertiesData.properties) {
-      setProperties(propertiesData.properties);
-      setFilteredProperties(propertiesData.properties);
+    if (propertiesData?.properties) {
+      setProperties(propertiesData?.properties);
+      setFilteredProperties(propertiesData?.properties);
     }
   }, []);
 
@@ -28,18 +28,18 @@ export const PropertiesPage = () => {
   const handleSearch = () => {
     const { name, type, minPrice, maxPrice } = searchFilters;
 
-    const filtered = properties.filter((property) => {
+    const filtered = properties?.filter((property) => {
       const matchesName = name
-        ? property.type.toLowerCase().includes(name.toLowerCase())
+        ? property?.type.toLowerCase().includes(name.toLowerCase())
         : true;
       const matchesType = type
-        ? property.type.toLowerCase() === type.toLowerCase()
+        ? property?.type.toLowerCase() === type.toLowerCase()
         : true;
       const matchesMinPrice = minPrice
-        ? property.price >= parseInt(minPrice, 10)
+        ? property?.price >= parseInt(minPrice, 10)
         : true;
       const matchesMaxPrice = maxPrice
-        ? property.price <= parseInt(maxPrice, 10)
+        ? property?.price <= parseInt(maxPrice, 10)
         : true;
 
       return matchesName && matchesType && matchesMinPrice && matchesMaxPrice;
@@ -59,16 +59,16 @@ export const PropertiesPage = () => {
         <div className="col-md-3 mb-4">
           <div className="bg-light shadow rounded p-3 sticky-top">
             <h5 className="fw-bold mb-3">Wishlist</h5>
-            {wishlist.length > 0 ? (
+            {wishlist?.length > 0 ? (
               <ul className="list-group">
                 {properties
-                  .filter((property) => wishlist.includes(property.id))
+                  .filter((property) => wishlist?.includes(property.id))
                   .map((property) => (
                     <li
                       key={property.id}
                       className="list-group-item d-flex justify-content-between align-items-center"
                     >
-                      <span>{property.type}</span>
+                      <Link className="nav-link text-dark" to={`../${SINGLEVIEW}/${property?.id}`}><span>{property.type}</span></Link>
                       <button
                         className="btn btn-sm btn-danger"
                         onClick={() => toggleWishlist(property.id)}
@@ -176,7 +176,7 @@ export const PropertiesPage = () => {
           >
             <PropertyCard
               property={property}
-              onWishlistToggle={() => toggleWishlist(property.id)}
+              onWishlistToggle={() => toggleWishlist(property?.id)}
             />
           </div>
         ))}

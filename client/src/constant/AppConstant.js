@@ -18,3 +18,4 @@ export const HOMEPAGEURL = config.homepageurl;
 export const ABOUTUS = config.aboutus
 export const CONTACTUS = config.contactus
 export const PROPERTIES = config.Properties
+export const SINGLEVIEW = config.singleview
