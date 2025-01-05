@@ -32,6 +32,7 @@
       "shortdescription": "Two-bedroom apartment in a modern development.",
       "description": "A modern two-bedroom apartment located in the heart of Orpington, within a secure gated development. The apartment features open-plan living with a fully integrated kitchen, spacious bedrooms, and modern bathrooms. The development is just a short walk from the station, offering easy access to central London. The property also includes a private balcony with views of the surrounding area. The development has ample parking and security features, making it ideal for professionals and small families.",
       "location": "Orpington, Kent BR6",
+      "floorplane":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sample_Floorplan.jpg/640px-Sample_Floorplan.jpg",
       "picture": [
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
@@ -42,7 +43,7 @@
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
       ],
-      "url": "properties/prop2.html",
+      "url": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d31659.2973448237!2d80.58245832331959!3d7.307506250230612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3ae369dd1df56dab%3A0xdda18c3258034310!2sAladeniya!3m2!1d7.330692999999999!2d80.5688428!4m5!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!3m2!1d7.2905714999999995!2d80.6337262!5e0!3m2!1sen!2slk!4v1736081859738!5m2!1sen!2slk",
       "added": { "month": "November", "day": 5, "year": 2022 }
     },
     {
@@ -54,6 +55,7 @@
       "shortdescription": "Spacious villa with private pool in a prestigious area.",
       "description": "This luxurious villa is located in an exclusive area with easy access to local amenities and prestigious schools. The property boasts four generously sized bedrooms, a large living area, and a fully equipped modern kitchen. The outdoor space is perfect for entertaining, with a private swimming pool, landscaped gardens, and a patio area. The villa offers a peaceful and secure environment, ideal for family living. It is within walking distance to local shops and restaurants and offers easy access to major transport links.",
       "location": "Hawley Road, Bexley DA5",
+      "floorplane":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sample_Floorplan.jpg/640px-Sample_Floorplan.jpg",
       "picture": [
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
@@ -64,7 +66,7 @@
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
       ],
-      "url": "properties/prop3.html",
+      "url": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d31659.2973448237!2d80.58245832331959!3d7.307506250230612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3ae369dd1df56dab%3A0xdda18c3258034310!2sAladeniya!3m2!1d7.330692999999999!2d80.5688428!4m5!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!3m2!1d7.2905714999999995!2d80.6337262!5e0!3m2!1sen!2slk!4v1736081859738!5m2!1sen!2slk",
       "added": { "month": "December", "day": 1, "year": 2022 }
     },
     {
@@ -76,6 +78,7 @@
       "shortdescription": "Modern one-bedroom apartment with city views.",
       "description": "This contemporary one-bedroom apartment is located in the heart of the city, offering spectacular views of the skyline. The apartment has been designed with an open-plan living and kitchen area, featuring floor-to-ceiling windows that allow natural light to flood the space. The bedroom is spacious, with built-in wardrobes, and the bathroom is finished to a high standard. This property is perfect for professionals who want a centrally located home with easy access to work and entertainment.",
       "location": "City Centre, Bromley BR1",
+      "floorplane":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sample_Floorplan.jpg/640px-Sample_Floorplan.jpg",
       "picture": [
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
@@ -86,7 +89,7 @@
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
       ],
-      "url": "properties/prop4.html",
+      "url": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d31659.2973448237!2d80.58245832331959!3d7.307506250230612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3ae369dd1df56dab%3A0xdda18c3258034310!2sAladeniya!3m2!1d7.330692999999999!2d80.5688428!4m5!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!3m2!1d7.2905714999999995!2d80.6337262!5e0!3m2!1sen!2slk!4v1736081859738!5m2!1sen!2slk",
       "added": { "month": "November", "day": 15, "year": 2022 }
     },
     {
@@ -98,6 +101,7 @@
       "shortdescription": "Large family home with garden and parking.",
       "description": "This stunning five-bedroom house offers spacious accommodation, ideal for a growing family. The property features a large living room, a separate dining area, a modern kitchen, and a private garden. The bedrooms are all well-sized, with the master bedroom benefiting from an ensuite bathroom. There is also a large driveway providing ample off-street parking. The house is located in a family-friendly neighborhood, close to schools and parks.",
       "location": "High Street, Sidcup DA15",
+      "floorplane":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sample_Floorplan.jpg/640px-Sample_Floorplan.jpg",
       "picture": [
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
@@ -108,7 +112,7 @@
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
       ],
-      "url": "properties/prop5.html",
+      "url": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d31659.2973448237!2d80.58245832331959!3d7.307506250230612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3ae369dd1df56dab%3A0xdda18c3258034310!2sAladeniya!3m2!1d7.330692999999999!2d80.5688428!4m5!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!3m2!1d7.2905714999999995!2d80.6337262!5e0!3m2!1sen!2slk!4v1736081859738!5m2!1sen!2slk",
       "added": { "month": "December", "day": 5, "year": 2022 }
     },
     {
@@ -120,6 +124,7 @@
       "shortdescription": "Luxurious villa with stunning views and pool.",
       "description": "Located in one of the most sought-after areas, this six-bedroom villa boasts impressive views of the surrounding landscape. The villa offers an open-plan layout with a large living area, a fully equipped kitchen, and six spacious bedrooms. The outdoor space includes a beautiful infinity pool, a large terrace, and meticulously landscaped gardens. Perfect for those looking for a luxurious, private, and peaceful living environment, the villa is just a short drive from local amenities.",
       "location": "Greenwich, London SE10",
+      "floorplane":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sample_Floorplan.jpg/640px-Sample_Floorplan.jpg",
       "picture": [
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
@@ -130,7 +135,7 @@
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
       ],
-      "url": "properties/prop6.html",
+      "url": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d31659.2973448237!2d80.58245832331959!3d7.307506250230612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3ae369dd1df56dab%3A0xdda18c3258034310!2sAladeniya!3m2!1d7.330692999999999!2d80.5688428!4m5!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!3m2!1d7.2905714999999995!2d80.6337262!5e0!3m2!1sen!2slk!4v1736081859738!5m2!1sen!2slk",
       "added": { "month": "January", "day": 10, "year": 2023 }
     },
     {
@@ -142,6 +147,7 @@
       "shortdescription": "Modern four-bedroom detached house in quiet neighborhood.",
       "description": "This beautifully presented four-bedroom detached house is located in a peaceful neighborhood, offering modern living with spacious rooms and a well-maintained garden. The house features a large living room, separate dining room, and a fully equipped kitchen with integrated appliances. There are four well-sized bedrooms, including a master suite with an ensuite bathroom. The property also has a large driveway with space for multiple vehicles and is within easy reach of local amenities and transport links.",
       "location": "Chislehurst Road, Chislehurst BR7",
+      "floorplane":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sample_Floorplan.jpg/640px-Sample_Floorplan.jpg",
       "picture": [
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
@@ -152,7 +158,7 @@
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
       ],
-      "url": "properties/prop7.html",
+      "url": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d31659.2973448237!2d80.58245832331959!3d7.307506250230612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3ae369dd1df56dab%3A0xdda18c3258034310!2sAladeniya!3m2!1d7.330692999999999!2d80.5688428!4m5!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!3m2!1d7.2905714999999995!2d80.6337262!5e0!3m2!1sen!2slk!4v1736081859738!5m2!1sen!2slk",
       "added": { "month": "February", "day": 3, "year": 2023 }
     },
     {
@@ -164,6 +170,7 @@
       "shortdescription": "Three-bedroom apartment with secure parking.",
       "description": "This three-bedroom apartment offers modern living with spacious rooms, including an open-plan kitchen and living area. The property has been recently renovated to a high standard, with a fully fitted kitchen and new appliances. The bedrooms are generous in size, and the apartment has ample storage space. The development includes secure parking and is situated in a popular location with easy access to the town center and transport links.",
       "location": "Bromley BR2",
+      "floorplane":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sample_Floorplan.jpg/640px-Sample_Floorplan.jpg",
       "picture": [
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
@@ -174,7 +181,7 @@
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
       ],
-      "url": "properties/prop8.html",
+      "url": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d31659.2973448237!2d80.58245832331959!3d7.307506250230612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3ae369dd1df56dab%3A0xdda18c3258034310!2sAladeniya!3m2!1d7.330692999999999!2d80.5688428!4m5!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!3m2!1d7.2905714999999995!2d80.6337262!5e0!3m2!1sen!2slk!4v1736081859738!5m2!1sen!2slk",
       "added": { "month": "February", "day": 15, "year": 2023 }
     },
     {
@@ -186,6 +193,7 @@
       "shortdescription": "Charming two-bedroom cottage in a rural setting.",
       "description": "This charming two-bedroom cottage is located in a peaceful rural setting, ideal for those who enjoy a quiet lifestyle. The property features a cozy living room with a fireplace, a kitchen with traditional fittings, and two well-sized bedrooms. The garden is beautifully maintained, and there is ample space for outdoor entertaining. The cottage is within easy reach of local amenities, and public transport links are just a short drive away.",
       "location": "Sevenoaks, Kent TN13",
+      "floorplane":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sample_Floorplan.jpg/640px-Sample_Floorplan.jpg",
       "picture": [
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
@@ -196,7 +204,7 @@
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
       ],
-      "url": "properties/prop9.html",
+      "url": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d31659.2973448237!2d80.58245832331959!3d7.307506250230612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3ae369dd1df56dab%3A0xdda18c3258034310!2sAladeniya!3m2!1d7.330692999999999!2d80.5688428!4m5!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!3m2!1d7.2905714999999995!2d80.6337262!5e0!3m2!1sen!2slk!4v1736081859738!5m2!1sen!2slk",
       "added": { "month": "March", "day": 10, "year": 2023 }
     },
     {
@@ -208,6 +216,7 @@
       "shortdescription": "Two-bedroom apartment with views of the park.",
       "description": "This bright and spacious two-bedroom apartment offers lovely views of the nearby park. The apartment has been well-maintained and features an open-plan kitchen and living area with modern fixtures. The bedrooms are generously sized, and the bathroom is finished to a high standard. The apartment also benefits from a private balcony and is situated in a quiet, residential area with easy access to transport links and local amenities.",
       "location": "Dartford, Kent DA1",
+      "floorplane":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sample_Floorplan.jpg/640px-Sample_Floorplan.jpg",
       "picture": [
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
@@ -218,7 +227,7 @@
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
       ],
-      "url": "properties/prop10.html",
+      "url": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d31659.2973448237!2d80.58245832331959!3d7.307506250230612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3ae369dd1df56dab%3A0xdda18c3258034310!2sAladeniya!3m2!1d7.330692999999999!2d80.5688428!4m5!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!3m2!1d7.2905714999999995!2d80.6337262!5e0!3m2!1sen!2slk!4v1736081859738!5m2!1sen!2slk",
       "added": { "month": "March", "day": 15, "year": 2023 }
     },
     {
@@ -230,6 +239,7 @@
       "shortdescription": "Large five-bedroom family home with spacious garden.",
       "description": "This spacious five-bedroom detached house offers the perfect setting for a growing family. It boasts a large garden with plenty of space for outdoor activities and a well-designed interior featuring a modern kitchen, multiple reception rooms, and a cozy fireplace in the living room. Upstairs, there are five generous bedrooms, including a master suite with an en-suite bathroom. The house is located in a quiet suburban area, with good schools and amenities nearby.",
       "location": "Sutton, Surrey SM2",
+      "floorplane":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sample_Floorplan.jpg/640px-Sample_Floorplan.jpg",
       "picture": [
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
@@ -240,206 +250,8 @@
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
         "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
       ],
-      "url": "properties/prop11.html",
+      "url": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d31659.2973448237!2d80.58245832331959!3d7.307506250230612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3ae369dd1df56dab%3A0xdda18c3258034310!2sAladeniya!3m2!1d7.330692999999999!2d80.5688428!4m5!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!3m2!1d7.2905714999999995!2d80.6337262!5e0!3m2!1sen!2slk!4v1736081859738!5m2!1sen!2slk",
       "added": { "month": "March", "day": 20, "year": 2023 }
-    },
-    {
-      "id": "prop12",
-      "type": "Apartment",
-      "bedrooms": 2,
-      "price": 375000,
-      "tenure": "Leasehold",
-      "shortdescription": "Two-bedroom apartment with modern fixtures.",
-      "description": "This stylish two-bedroom apartment is located in a popular residential area. The apartment has been fully renovated with high-quality fixtures and fittings throughout. The open-plan living area offers plenty of natural light, while the bedrooms are well-sized and benefit from ample storage space. The apartment also comes with secure parking and is situated close to local amenities and transport links.",
-      "location": "Orpington, Kent BR6",
-      "picture": [
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
-      ],
-      "url": "properties/prop12.html",
-      "added": { "month": "March", "day": 25, "year": 2023 }
-    },
-    {
-      "id": "prop13",
-      "type": "House",
-      "bedrooms": 6,
-      "price": 1200000,
-      "tenure": "Freehold",
-      "shortdescription": "Expansive six-bedroom home with private swimming pool.",
-      "description": "This stunning six-bedroom family home offers luxury living with a large garden and private swimming pool. The house features an open-plan kitchen and dining area, a spacious living room, and a games room. Upstairs, there are six large bedrooms, including a master suite with a walk-in wardrobe and a luxurious en-suite bathroom. The property also has a double garage and is located in a sought-after area with excellent schools and amenities.",
-      "location": "Bromley, Kent BR1",
-      "picture": [
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
-      ],
-      "url": "properties/prop13.html",
-      "added": { "month": "April", "day": 5, "year": 2023 }
-    },
-    {
-      "id": "prop14",
-      "type": "Apartment",
-      "bedrooms": 1,
-      "price": 250000,
-      "tenure": "Leasehold",
-      "shortdescription": "Cozy one-bedroom apartment with city views.",
-      "description": "This charming one-bedroom apartment offers beautiful views of the city and is ideal for first-time buyers or investors. The apartment has been well-maintained and features a spacious living room with large windows, a fully fitted kitchen, and a double bedroom. The bathroom is finished to a high standard, and there is also a private balcony. The property is located in a vibrant area with great transport links and local amenities.",
-      "location": "London, SE1",
-      "picture": [
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
-      ],
-      "url": "properties/prop14.html",
-      "added": { "month": "April", "day": 10, "year": 2023 }
-    },
-    {
-      "id": "prop15",
-      "type": "House",
-      "bedrooms": 3,
-      "price": 600000,
-      "tenure": "Freehold",
-      "shortdescription": "Three-bedroom semi-detached house with large garden.",
-      "description": "This well-presented three-bedroom semi-detached house is perfect for families looking for space and comfort. The house features a large garden, ideal for children and pets, and a spacious living room with a feature fireplace. The fully fitted kitchen is modern and includes integrated appliances, and the upstairs offers three good-sized bedrooms. The house is located in a family-friendly neighborhood with parks, schools, and shops nearby.",
-      "location": "Bexley, Kent DA5",
-      "picture": [
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
-      ],
-      "url": "properties/prop15.html",
-      "added": { "month": "April", "day": 15, "year": 2023 }
-    },
-    {
-      "id": "prop16",
-      "type": "Apartment",
-      "bedrooms": 3,
-      "price": 700000,
-      "tenure": "Leasehold",
-      "shortdescription": "Modern three-bedroom apartment in the city center.",
-      "description": "This contemporary three-bedroom apartment is located in the heart of the city center, offering easy access to all amenities and transport links. The apartment features a spacious open-plan living area with large windows providing plenty of natural light. The kitchen is modern and fully equipped, and there are three well-sized bedrooms. The property also benefits from secure parking and a private balcony.",
-      "location": "London, EC1",
-      "picture": [
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
-      ],
-      "url": "properties/prop16.html",
-      "added": { "month": "April", "day": 20, "year": 2023 }
-    },
-    {
-      "id": "prop17",
-      "type": "House",
-      "bedrooms": 4,
-      "price": 875000,
-      "tenure": "Freehold",
-      "shortdescription": "Beautifully renovated four-bedroom house with garden.",
-      "description": "This tastefully renovated four-bedroom house offers modern living with character. The property includes a beautiful garden, ideal for entertaining and outdoor activities. Inside, there is a large living room with a fireplace, a well-equipped kitchen, and a dining area. The four bedrooms are spacious, and the master bedroom features an en-suite bathroom. The house is located in a quiet, residential area with great schools and local amenities nearby.",
-      "location": "Croydon, Surrey CR0",
-      "picture": [
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
-      ],
-      "url": "properties/prop17.html",
-      "added": { "month": "May", "day": 1, "year": 2023 }
-    },
-    {
-      "id": "prop18",
-      "type": "Apartment",
-      "bedrooms": 2,
-      "price": 500000,
-      "tenure": "Leasehold",
-      "shortdescription": "Two-bedroom apartment with stunning views.",
-      "description": "This charming two-bedroom apartment offers spectacular views of the surrounding area. The apartment has been well-maintained and features a spacious living room, a fully equipped kitchen, and two comfortable bedrooms. The bathroom is finished to a high standard, and the property also benefits from a private balcony. The apartment is located in a popular residential area with good transport links and local amenities.",
-      "location": "Harrow, London HA1",
-      "picture": [
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
-      ],
-      "url": "properties/prop18.html",
-      "added": { "month": "May", "day": 5, "year": 2023 }
-    },
-    {
-      "id": "prop19",
-      "type": "House",
-      "bedrooms": 3,
-      "price": 700000,
-      "tenure": "Freehold",
-      "shortdescription": "Charming three-bedroom house in a village location.",
-      "description": "This charming three-bedroom house is located in a peaceful village setting, perfect for those who enjoy country living. The house features a spacious living room, a fully fitted kitchen, and three well-sized bedrooms. There is also a private garden with space for outdoor entertaining. The property is within easy reach of local amenities, and public transport links are just a short distance away.",
-      "location": "Tunbridge Wells, Kent TN1",
-      "picture": [
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
-      ],
-      "url": "properties/prop19.html",
-      "added": { "month": "May", "day": 10, "year": 2023 }
-    },
-    {
-      "id": "prop20",
-      "type": "Apartment",
-      "bedrooms": 1,
-      "price": 320000,
-      "tenure": "Leasehold",
-      "shortdescription": "One-bedroom apartment with great potential.",
-      "description": "This one-bedroom apartment offers great potential for investment or as a first-time home. It features a bright and airy living room with large windows, a separate kitchen, and a comfortable bedroom. The bathroom is finished to a good standard. The apartment is located in a popular area with local shops and excellent transport links.",
-      "location": "Bexleyheath, Kent DA7",
-      "picture": [
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/about2.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png",
-        "https://wenasaholidayresort.lk/wp-content/uploads/2022/09/10.png"
-      ],
-      "url": "properties/prop20.html",
-      "added": { "month": "May", "day": 15, "year": 2023 }
     }
   ]
 }
