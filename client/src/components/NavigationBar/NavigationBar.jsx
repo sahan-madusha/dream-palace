@@ -6,6 +6,8 @@ import {
   CONTACTUS,
   ABOUTUS,
   PROPERTIES,
+  EMAIL,
+  WHATSAPP,
 } from "../../constant/AppConstant";
 import { useWishlist } from "../../Context/WishlistContext";
 
@@ -31,10 +33,10 @@ export const NavigationBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto ">
             <li className="nav-item mx-1">
-              <p className="footer-contact">contact@company.com</p>
+              <p className="footer-contact">{EMAIL}</p>
             </li>
             <li className="nav-item mx-1">
-              <p className="footer-contact"> +1 (123) 456-7890</p>
+              <p className="footer-contact">{WHATSAPP}</p>
             </li>
           </ul>
         </div>

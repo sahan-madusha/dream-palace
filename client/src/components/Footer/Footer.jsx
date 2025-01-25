@@ -8,7 +8,7 @@ export const Footer = () => {
         <div className="row">
           {/* Company Section */}
           <div className="col-md-4 mb-4">
-            <h5 className="footer-title">Company</h5>
+            <h5 className="footer-title">{WEBNAME}</h5>
             <ul className="list-unstyled">
               <li><a href="/" className="footer-link">About Us</a></li>
               <li><a href="/services" className="footer-link">Services</a></li>
@@ -21,10 +21,10 @@ export const Footer = () => {
           <div className="col-md-4 mb-4">
             <h5 className="footer-title">Contact Us</h5>
             <p className="footer-contact">
-              123 Main Street, Cityville, USA
+              {ADDRESS}
             </p>
-            <p className="footer-contact">Email: contact@company.com</p>
-            <p className="footer-contact">Phone: +1 (123) 456-7890</p>
+            <p className="footer-contact">Email: {EMAIL}</p>
+            <p className="footer-contact">Phone:{WHATSAPP}</p>
           </div>
 
           {/* Social Media Links */}
@@ -49,7 +49,7 @@ export const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="footer-bottom text-center mt-5">
-          <p>&copy; 2025 Company Name. All Rights Reserved.</p>
+          <p>&copy; 2025 {WEBNAME}. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
