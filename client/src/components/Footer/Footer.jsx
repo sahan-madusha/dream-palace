@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { WEBNAME, EMAIL, WHATSAPP } from "../../constant/AppConstant";
+import { WEBNAME, EMAIL, WHATSAPP , ADDRESS } from "../../constant/AppConstant";
 
 export const Footer = () => {
   return (
